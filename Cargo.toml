@@ -1,0 +1,13 @@
+[package]
+name = "ws-forwarder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-tungstenite = { version = "0.25", features = ["tokio-native-tls"] }
+tokio = { version = "1.33", features = ["full"] }
+futures = "0.3"
+url = "2.4"
+log = "0.4"
+env_logger = "0.10"
+anyhow = "1.0"
