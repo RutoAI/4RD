@@ -1,0 +1,33 @@
+# Rust build
+/target/
+/Cargo.lock
+
+# Debug and release binaries
+**/*.rlib
+**/*.dSYM
+**/*.pdb
+**/*.dll
+**/*.exe
+**/*.so
+**/*.dylib
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Other backups
+*~
+*.bak
+
+# By default keep src/ and Cargo.toml tracked
+
